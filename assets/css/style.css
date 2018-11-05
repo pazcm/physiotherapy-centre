@@ -1,4 +1,15 @@
+/* Colors */
+To do: 
+- bg colors sections
+- pallette
+white
+black
+grey
+green
+
+
 /* General Styles */
+
 body {
     font-family: 'K2D', 'Raleway', sans-serif;
     
@@ -8,10 +19,24 @@ body {
     display: flex;
 }
 
+main {
+    margin-top: 150px;
+}
 
 
+/* Hamburger menu */
 
+.navbar-collapse {
+    /*background-color: 50DC4B;*/
+}
 
+.navbar-fixed-top .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+.navbar-fixed-top .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: 50dc4b;
+}
 
 
 
