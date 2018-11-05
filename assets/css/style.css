@@ -1,0 +1,56 @@
+/* General Styles */
+body {
+    font-family: 'K2D', 'Raleway', sans-serif;
+    
+}
+
+.flex-row {
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*--Media Queries--*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+/* Mobile */
+@media only screen and (max-width: 400px) {
+  body {
+    background-color: #f09a9d; /* red */
+  }
+  .flex-row {
+      display: block;
+  }
+}
+
+/* Tablet */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  body {
+    background-color: #f5cf8e; /* yellow */
+  }
+}
+
+/* Desktop */
+@media only screen and (min-width: 961px) {
+  body {
+    background-color: #daeaf9; /* blue */
+  }
+  
+}
