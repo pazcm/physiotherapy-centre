@@ -19,6 +19,22 @@ body {
     display: flex;
 }
 
+
+/* Header */
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+
+
+
+
 main {
     margin-top: 150px;
 }
@@ -75,7 +91,8 @@ main {
 /* Desktop */
 @media only screen and (min-width: 961px) {
   body {
-    background-color: #daeaf9; /* blue */
+    background-color: #F5F5F5
+   /* #daeaf9;  blue */
   }
   
 }
