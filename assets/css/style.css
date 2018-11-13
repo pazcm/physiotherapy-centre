@@ -1,148 +1,55 @@
-/* Colors: 
+/* navbar */
 
-white: #ffffff
-black: #000000
-grey: #808080
-pastel grey: #cccccc
-whiteSmoke: #f5f5f5
-green: #50dc4b
-
-blue: #daeaf9;
-
-*/
-
-
-
-/* General Styles */
-
-body {
-  font-family: 'K2D', 'Raleway', sans-serif;
-    
+.navbar{ 
+  background: #cccccc;
 }
 
-.flex-row {
-  display: flex;
+.nav-link , .navbar-brand { 
+  color: #50dc4b; 
+  cursor: pointer;
 }
 
-main {
-    margin-top: 150px;
-}
-
-/* Navbar */
-
-.navbar {
-  margin-bottom: 0;
-  border: 0;
-    /*background-color: rgba(0, 0, 0, .5);*/
-}
-
-.navbar.navbar-fixed-top {
-  padding: 40px;
-}
-
-.navbar .navbar-nav {
-  display: inline-block;
-  float: none;
-  vertical-align: top;
-}
-
-.navbar .navbar-collapse {
-  text-align: center;
-}
-
-.nav.navbar-nav a {
+.nav-link { 
+  /*margin-right: 1em !important;*/
   font-weight: bold;
   color: #50dc4b;
 }
 
-.navbar-brand {
-  color: #50dc4b;
+.nav-link:hover { 
+  color: #fff;
+  background: transparent;
 }
 
-.nav.navbar-nav>.active>a,
-.nav.navbar-nav>a:focus,
-.nav.navbar-nav>a:hover {
-    color: #808080;
-    background: transparent;
+.navbar-toggler {  
+  background:#50dc4b !important;
 }
-
-.nav.navbar-nav>li>a:focus,
-.nav.navbar-nav>li>a:hover {
-  color: #ffffff;
-}
-
-
-/* Footer */
-
-.social li {
-  display: inline-block;
-}
-
-.social-links-container {
-  margin-top: 25px;
-}
-
-.block-divider {
-  border: 0;
-  height: 1px;
-  width: 25%; 
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
-  display: inline-block;
-}
-
-
-/* Hamburger menu */
 
 .navbar-collapse {
-    /*background-color: red;*/
-}
-
-.navbar-fixed-top .navbar-toggle .icon-bar {
-    background-color:#50dc4b;
-}
-
-.navbar-fixed-top .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
-    background-color: #f5f5f5;
+ justify-content: center;
 }
 
 
+/* header */
 
-
-
-
-
-
-
-
-/*--Media Queries--*/
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  
-}
-/* Mobile */
-@media only screen and (max-width: 400px) {
-  body {
-    background-color: #f09a9d; /* red */
-  }
-  .flex-row {
-      display: block;
-  }
+.header{
+ /*background: url("../images/bg-dummy-image.jpg");*/
+ background-color: #f5f5f5;
+ background-attachment: fixed;
+ background-size: cover;
+ background-position: center;
+ height: 500px;
+ 
 }
 
-/* Tablet */
-@media only screen and (min-width: 401px) and (max-width: 960px) {
-  body {
-    background-color: #f5cf8e; /* yellow */
-  }
+.overlay{
+ position: absolute;
+ min-height: 100%;
+ min-width: 100%;
+ left: 0;
+ top: 0;
+ background: rgba(244, 244, 244, 0.79);
 }
 
-/* Desktop */
-@media only screen and (min-width: 961px) {
-  body {
-    background-color: #F5F5F5;
-  }
-  
+.page-title {
+    display: block;
 }
