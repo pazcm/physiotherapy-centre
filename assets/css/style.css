@@ -1,10 +1,10 @@
 /* navbar */
 
-.navbar{ 
+.navbar { 
   background: #cccccc;
 }
 
-.nav-link , .navbar-brand { 
+.nav-link, .navbar-brand { 
   color: #50dc4b; 
   cursor: pointer;
 }
@@ -50,4 +50,18 @@
 
 .page-title {
     display: block;
+}
+
+/* Intro */
+
+.description {
+    
+}
+
+/* Footer */
+
+/* Social Links */
+
+a {
+    color: #50dc4b;
 }
