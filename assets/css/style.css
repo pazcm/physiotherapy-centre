@@ -1,3 +1,10 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'K2D', 'Raleway', sans-serif;
+}
+
+
 
 /* navbar */
 
@@ -13,38 +20,18 @@
 .nav-link { 
   font-weight: normal;
   color: #50dc4b;
-  padding: 1rem 0rem 1rem 1rem;
-  transition: border-bottom 3s; 
-}
-
-.nav-link::after {
-    content: '';
-    border-right: 1px solid #50dc4b;
-    margin-left: 1rem;
-}
-
-.navbar-expand-lg .navbar-nav .nav-link {
-    padding-right: 0rem;
-}
-
-.navbar-nav .nav-item:last-child .nav-link::after {
-    border-right: none ;
+  
 }
 
 .nav-link:hover { 
-  color: #000;
+  color: #00802b;
   background: transparent;
-  border-bottom: 1px solid #50dc4b;
-  padding-right: 0rem;
 }
 
 /*.nav-link.active {*/
 /*    border-bottom: 1px solid red;*/
 /*}*/
 
-.navbar-toggler {  
-  background:#50dc4b;
-}
 
 .navbar-collapse {
  justify-content: center;
@@ -56,6 +43,8 @@
 .header{
  /*background: url("../images/bg-dummy-image.jpg");*/
  background-color: #f5f5f5;
+ /*background-color: #00802b;*/
+ 
  background-attachment: fixed;
  background-size: cover;
  background-position: center;
@@ -74,11 +63,19 @@
     display: block;
 }
 
+
+
 /* Intro */
 
 .description {
     
 }
+
+
+.line-text {
+    margin: auto;
+}
+
 
 /* Pilates */
 
@@ -90,31 +87,128 @@
 }
  
 .calendar iframe {
- position: absolute;
- top:0;
- left: 0;
- width: 100%;
- height: 100%;
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
-
-
-
-
-/* Footer */
 
 /* Social Links */
 
-a {
+.social-link {
     color: #50dc4b;
 }
 
-.line-text {
-    margin: auto;
+.social-link:hover {
+    color: #00802b;
+    background: transparent;
+}
+
+/* Footer */
+.appointment-phone {
+    padding-right: 25px;
+}
+.privacy-links {
+    padding-right: 25px;
+}
+
+.privacy-link {
+    color: #50dc4b;
+}
+
+.privacy-link:hover {
+    color: #00802b;
+}
+
+.footer-copyright a {
+    color: #50dc4b;
+    text-decoration: none;
+}
+
+.footer-copyright:hover {
+   background-color: #00802b;
+   transition: background-color 1s;
 }
 
 
-/*test*/
-/*a { background: #fff; color: #aa0000; padding: 3px; -webkit-transition: all 1s linear; }*/
-/*a:hover { background: #220077; color: #fff; }*/
+/* Hamburger menu */
 
-/*test*/
+.navbar-toggler {  
+    background: #fff;
+    padding: 0.2rem;
+    margin-bottom: 3rem;
+}
+
+.navbar-toggler .icon-bar {
+    background-color: #50dc4b;
+    display: block;
+    padding: .1rem 1rem .1rem 1rem;
+    margin: .3rem;
+    border-radius: 1rem;
+}
+
+.navbar-toggler:hover {
+    background-color: #50dc4b;
+}
+
+.navbar-toggler:hover .icon-bar {
+    background-color: #fff;
+}
+
+
+
+
+
+
+
+
+
+/* ---- Media Queries ---- */
+
+
+/* Desktop */
+
+@media only screen and (min-width: 961px) {
+    
+    .nav-link { 
+        padding: 1rem 0rem 1rem 1rem;
+        transition: border-bottom 1s ease; 
+    }
+
+    .nav-link::after {
+        content: '';
+        border-right: 1px solid #50dc4b;
+        margin-left: 1rem;
+    }
+    
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 0rem;
+    }
+    
+    .navbar-nav .nav-item:last-child .nav-link::after {
+        border-right: none ;
+    }
+    
+    .nav-link:hover { 
+        border-bottom: 1px solid #50dc4b;
+        padding-right: 0rem;
+    }
+}
+
+/* Mobile */
+
+@media only screen and (max-width: 400px) {
+    .logo {
+        width: 100px;
+        height: 100px;
+        margin-left: 2rem;
+        margin-bottom: 0.5rem;
+        padding: .1rem;
+    }
+    
+    .navbar-nav {
+        margin-left: 2rem;
+        padding-left: 2rem;
+    }
+}
