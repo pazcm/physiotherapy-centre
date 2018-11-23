@@ -42,8 +42,8 @@ body {
 
 .header{
  /*background: url("../images/bg-dummy-image.jpg");*/
- background-color: #f5f5f5;
- /*background-color: #00802b;*/
+ background-color: #f8f9fa;
+ /*background-color: #00802b  #f5f5f5;*/
  
  background-attachment: fixed;
  background-size: cover;
