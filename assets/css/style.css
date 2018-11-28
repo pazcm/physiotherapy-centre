@@ -24,7 +24,7 @@ body {
 }
 
 .nav-link:hover { 
-  color: #00802b;
+  color: #21951d;
   background: transparent;
 }
 
@@ -41,13 +41,14 @@ body {
 /* header */
 
 .header{
- /*background: url("../images/bg-dummy-image.jpg");*/
- background-color: #f5f5f5;
- /*background-color: #00802b;*/
+ background: url("../images/fondo-1-fisioetc.jpg");
+ /*background-color: #f8f9fa;*/
+ /*background-color: #21951d  #f5f5f5;*/
  
  background-attachment: fixed;
  background-size: cover;
  background-position: center;
+ position: relative;
 }
 
 .overlay{
@@ -56,7 +57,7 @@ body {
  min-width: 100%;
  left: 0;
  top: 0;
- background: rgba(244, 244, 244, 0.79);
+ background: rgba(243, 243, 243, 0.75);
 }
 
 .page-title {
@@ -94,6 +95,13 @@ body {
     height: 100%;
 }
 
+/* Footer */
+
+/*.info-footer {*/
+/*    background-color:  #ffffe6;*/
+/*}*/
+
+
 /* Social Links */
 
 .social-link {
@@ -101,7 +109,7 @@ body {
 }
 
 .social-link:hover {
-    color: #00802b;
+    color: #21951d;
     background: transparent;
 }
 
@@ -118,7 +126,7 @@ body {
 }
 
 .privacy-link:hover {
-    color: #00802b;
+    color: #21951d;
 }
 
 .footer-copyright a {
@@ -127,7 +135,7 @@ body {
 }
 
 .footer-copyright:hover {
-   background-color: #00802b;
+   background-color: #21951d;
    transition: background-color 1s;
 }
 
@@ -211,4 +219,58 @@ body {
         margin-left: 2rem;
         padding-left: 2rem;
     }
+}
+
+
+/*test barajando estilos*/
+#physiotherapy {
+    background: url("../images/foto-osteopatía.jpg");
+    background-size: cover;
+    min-height: 400px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+
+.page-title {
+    position: relative;
+}
+h1 {
+    font-weight: 800;
+}
+
+.container-home {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.container-footer {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+
+#treatments {
+    background-color: #f8f9fa;
+}
+
+#localization {
+    background-color: #f8f9fa;
+}
+
+
+#contact {
+     background-color: #f8f9fa;
+}
+
+.privacy {
+    margin-bottom: 0px;
+}
+
+.social-links {
+    background-color:#ffffe6;
+}
+
+.block-divider {
+    margin: 0rem 0rem 1rem 0rem;
 }
