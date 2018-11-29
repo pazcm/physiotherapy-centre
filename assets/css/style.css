@@ -4,6 +4,10 @@ body {
     font-family: 'K2D', 'Raleway', sans-serif;
 }
 
+h1 {
+    font-weight: 800;
+}
+
 
 
 /* navbar */
@@ -32,113 +36,9 @@ body {
 /*    border-bottom: 1px solid red;*/
 /*}*/
 
-
 .navbar-collapse {
  justify-content: center;
 }
-
-
-/* header */
-
-.header{
- background: url("../images/fondo-1-fisioetc.jpg");
- /*background-color: #f8f9fa;*/
- /*background-color: #21951d  #f5f5f5;*/
- 
- background-attachment: fixed;
- background-size: cover;
- background-position: center;
- position: relative;
-}
-
-.overlay{
- position: absolute;
- min-height: 100%;
- min-width: 100%;
- left: 0;
- top: 0;
- background: rgba(243, 243, 243, 0.75);
-}
-
-.page-title {
-    display: block;
-}
-
-
-
-/* Intro */
-
-.description {
-    
-}
-
-
-.line-text {
-    margin: auto;
-}
-
-
-/* Pilates */
-
-.calendar {
-    position: relative;
-    padding-bottom: 75%; 
-    height: 0; 
-    overflow: hidden;
-}
- 
-.calendar iframe {
-    position: absolute;
-    top:0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
-
-/* Footer */
-
-/*.info-footer {*/
-/*    background-color:  #ffffe6;*/
-/*}*/
-
-
-/* Social Links */
-
-.social-link {
-    color: #50dc4b;
-}
-
-.social-link:hover {
-    color: #21951d;
-    background: transparent;
-}
-
-/* Footer */
-.appointment-phone {
-    padding-right: 25px;
-}
-.privacy-links {
-    padding-right: 25px;
-}
-
-.privacy-link {
-    color: #50dc4b;
-}
-
-.privacy-link:hover {
-    color: #21951d;
-}
-
-.footer-copyright a {
-    color: #50dc4b;
-    text-decoration: none;
-}
-
-.footer-copyright:hover {
-   background-color: #21951d;
-   transition: background-color 1s;
-}
-
 
 /* Hamburger menu */
 
@@ -165,10 +65,164 @@ body {
 }
 
 
+/* header */
+
+.header {
+ background: url("../images/fondo-1-fisioetc.jpg");
+ /*background-color: #21951d  #f5f5f5;*/
+ 
+ background-attachment: fixed;
+ /*background-size: cover;*/
+ background-position: center;
+ position: relative;
+}
+
+.overlay {
+ position: absolute;
+ min-height: 100%;
+ min-width: 100%;
+ left: 0;
+ top: 0;
+ background: rgba(243, 243, 243, 0.75);
+}
+
+#contact-us .page-title {
+    min-height: 300px;
+    
+}
+
+#contact-us {
+    background: url("../images/contact2.jpg");
+    
+    
+}
+
+
+.page-title {
+    position: relative;
+    display: block;
+}
+
+
+
+/* Intro */
+
+.description {
+}
+
+.line-text {
+    margin: auto;
+}
+
+/* containers */
+
+.container-home {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.container-footer {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.container-contact-icons {
+    background-color: #f8f9fa;
+    padding: 3rem;
+}
+
+.container-contact-form {
+    padding: 3rem;
+    
+}
+
+
+/* Pilates */
+
+.calendar {
+    position: relative;
+    padding-bottom: 75%; 
+    height: 0; 
+    overflow: hidden;
+}
+ 
+.calendar iframe {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* Contact Us */
+.icon-box {
+    color: #50dc4b;
+    transition: all .4s ease-in;
+}
+
+.box:hover .icon-box i {
+    color: #21951d;
+    transition: all .4s ease-in;
+}
 
 
 
 
+/* Footer */
+
+/*.info-footer {*/
+/*    background-color:  #ffffe6;*/
+/*}*/
+
+
+/* Social Links */
+
+.social-links {
+    background-color:#ffffe6;
+}
+
+.social-link {
+    color: #50dc4b;
+}
+
+.social-link:hover {
+    color: #21951d;
+    background: transparent;
+}
+
+/* Footer */
+.appointment-phone {
+    padding-right: 25px;
+}
+
+.privacy {
+    margin-bottom: 0px;
+}
+.privacy-links {
+    padding-right: 25px;
+}
+
+.privacy-link {
+    color: #50dc4b;
+}
+
+.privacy-link:hover {
+    color: #21951d;
+}
+
+.block-divider {
+    margin: 0rem 0rem 1rem 0rem;
+}
+
+.footer-copyright a {
+    color: #50dc4b;
+    text-decoration: none;
+}
+
+.footer-copyright:hover {
+   background-color: #21951d;
+   transition: background-color 1s;
+}
 
 
 
@@ -232,23 +286,8 @@ body {
     -webkit-transition: all .5s ease-in-out;
 }
 
-.page-title {
-    position: relative;
-}
-h1 {
-    font-weight: 800;
-}
 
-.container-home {
-    padding-left: 0px;
-    padding-right: 0px;
-}
-
-.container-footer {
-    padding-left: 0px;
-    padding-right: 0px;
-}
-
+/* bg colors */
 
 #treatments {
     background-color: #f8f9fa;
@@ -263,14 +302,8 @@ h1 {
      background-color: #f8f9fa;
 }
 
-.privacy {
-    margin-bottom: 0px;
-}
 
-.social-links {
-    background-color:#ffffe6;
-}
 
-.block-divider {
-    margin: 0rem 0rem 1rem 0rem;
-}
+
+
+

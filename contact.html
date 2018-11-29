@@ -45,90 +45,94 @@
     <!--/.navbar-->
 
     <!-- header -->
-    <header class="header">
-    <!--<div class="overlay"></div>-->
-      <div id="contact" class="text-center">
-        <div class="row page-title">
-          <h1>Contacto</h1>
-            <h2>Cita Previa</h2>
+    <header id="contact-us" class="header">
+      <div class="overlay"></div>
+        <div class="text-center">
+          <div class="row page-title mt-3 mb-0 pt-3 pb-3">
+            <h1>Contacto</h1>
+            <h2>Aquí nos encuentras</h2>
+          </div>
         </div>
-      </div>
-    <!--<section>-->
-      <!--icon 1-->
-    <!--  <div class="container-fluid">-->
-    <!--    <div class="row">-->
-    <!--      <div class="col-12 col-lg-6 order-lg-first">-->
-    <!--        <img src="assets/images/dummy-image.jpg" height="100" width="100" class="img-fluid" alt="">-->
-    <!--      </div>-->
-    <!--      <div class="col-12 col-lg-6 line-text order-lg-last position-relative">-->
-    <!--        <h3>Cita Previa</h3>-->
-    <!--          <p>Llame al 555-000-55. </p>-->
-    <!--      </div>-->
-    <!--    </div>-->
-    <!--  </div>-->
-    
-    <!--icon 2-->
-    <!--  <div class="container-fluid">-->
-    <!--    <div class="row">-->
-    <!--      <div class="col-12 col-lg-6 order-lg-first">-->
-    <!--        <img src="assets/images/dummy-image.jpg" height="100" width="100" class="img-fluid" alt="">-->
-    <!--      </div>-->
-    <!--      <div class="col-12 col-lg-6 line-text order-lg-last position-relative">-->
-    <!--        <h3>Localizacion</h3>-->
-    <!--          <p>Estamos en C/Maria PIta. </p>                -->
-    <!--      </div>-->
-    <!--    </div>-->
-      
-    <!--</section>-->
-      
     </header>
     <!--/.header-->
     
-    <!-- Contact form -->
     <main>
-      <section id="contact-form" class="contact-form">
-        <div class="container">
-          <form>
-            <div class="row">
-              <div class="col-lg-4 col-md-4 col-sm-12">
-                <h3>Contacta</h3> 
+      <!-- Contact Us section-->
+      <section id="contact-icons" class="contact-icons">
+        <div class="container-fluid container-contact-icons">
+          <div class="row">
+            <div class="col-sm-4">
+              <div class="box text-center contact-us-box">
+                <div class="icon-box">
+                  <i class="fa fa-map-marker fa-5x" aria-hidden="true"></i>
+                </div>
+                  <h3 class="box-title">Localización</h3>
+                  <p class="box-text">C/ Saludable Número 8, As Pontes - A Coruña</p>
               </div>
             </div>
-            <div class="row">
-              <div class="col-lg-8 col-md-8 col-sm-12 right">
-                <div class="form-group">
-                  <input type="text" class="form-control form-control-lg" placeholder="Nombre y Apellidos" name="">
+            <div class="col-sm-4">
+              <div class="box text-center contact-us-box">
+                <div class="icon-box">
+                  <i class="fa fa-phone fa-5x" aria-hidden="true"></i>
                 </div>
-                <div class="form-group">
-                  <input type="email" class="form-control form-control-lg" placeholder="Email@email.com" name="email">
+                  <h3 class="box-title">Cita Previa</h3>
+                  <p class="box-text">555 000 0011</p>
+              </div>
                 </div>
-                <div class="form-group">
-                  <textarea class="form-control form-control-lg">hola
-                  </textarea>
+            <div class="col-sm-4">
+              <div class="box text-center contact-us-box">
+                <div class="icon-box">
+                  <i class="fa fa-at fa-5x" aria-hidden="true"></i>
                 </div>
-                <input type="submit" class="btn btn-secondary btn-block" value="Enviar" name="">
+                  <h3 class="box-title">Deja un mensaje</h3>
+                  <p class="box-text">info@centrodefisioterapia.com</p>
               </div>
-              <div class="col-lg-4 col-md-4 col-sm-12">
-                <div class="map">
-                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d103420.32169463714!2d-7.896353974987407!3d43.38698425338678!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd2e03e015de69d1%3A0x4538e11574d33228!2zUHVlbnRlcyBkZSBHYXJjw61hIFJvZHLDrWd1ZXosIExhIENvcnXDsWEsIEVzcGHDsWE!5e0!3m2!1ses!2sie!4v1542304713818" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
-              </div>
-              </div>
-           </div>
-          </form>
+            </div>
+          </div>
         </div>
       </section>
-<!--/.Contact form -->
-</main>
+      <!-- /.Contact Us section-->
 
-<!-- Footer -->
-<footer class="page-footer font-small">
+      <!-- Form section-->
+      <section id="contact-form" class="contact-form">
+      <div class="container-fluid container-contact-form">
+        <form>
+          <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-12">
+              <h3>Contacta</h3> 
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-8 col-md-8 col-sm-12 right">
+              <div class="form-group">
+                <input type="text" class="form-control form-control-lg" placeholder="Nombre y Apellidos" name="">
+              </div>
+              <div class="form-group">
+                <input type="email" class="form-control form-control-lg" placeholder="Email@email.com" name="email">
+              </div>
+              <div class="form-group">
+                <textarea class="form-control form-control-lg">
+                </textarea>
+              </div>
+                <input type="submit" class="btn btn-secondary btn-block" value="Enviar" name="">
+              </div>
+            <div class="col-lg-4 col-md-4 col-sm-12">
+              <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d103420.32169463714!2d-7.896353974987407!3d43.38698425338678!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd2e03e015de69d1%3A0x4538e11574d33228!2zUHVlbnRlcyBkZSBHYXJjw61hIFJvZHLDrWd1ZXosIExhIENvcnXDsWEsIEVzcGHDsWE!5e0!3m2!1ses!2sie!4v1542304713818" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+    <!--/.form -->
+  </main>
 
-    <!-- Footer Elements -->
-    <div class="container">
-
+  <!-- Footer -->
+  <footer class="page-footer font-small">
+    <div class="container-fluid container-footer">
       <!-- Social Links -->
-      <div class="row">
-
+      <div class="row social-links">
         <div class="col-md-12 py-5">
           <div class="mb-5 text-center">
             <!-- Twitter -->
@@ -149,21 +153,19 @@
             </a>
           </div>
         </div>
-        
       </div>
       <!-- /.Social Links -->
 
       <!-- Info footer -->
       <div class="info-footer text-center">
         <hr class="block-divider">
-            <p><span class="appointment-phone">Cita Previa 555 00 0011</span></p>
-            <p>
-              <a href="#!" class="privacy-link">Política de Privacidad</a>
-              <a href="#!" class="mx-3 privacy-link">Aviso Legal</a>
+            <p><span class="appointment-phone"><u><strong>Cita Previa</strong></u> &#128222 555 00 0011</span></p>
+            <p class="privacy">
+              <a href="#" class="privacy-link">Política de Privacidad</a>
+              <a href="#" class="mx-3 privacy-link">Aviso Legal</a>
             </p>
       </div>
-    </div>
-    <!-- /.Footer Elements -->
+    <!-- /.Info footer -->
 
     <!-- Copyright -->
     <div class="footer-copyright text-center py-3">© 2018 Centro de Fisioterapia:
