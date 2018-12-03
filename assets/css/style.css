@@ -91,18 +91,28 @@ h1 {
     display: block;
 }
 
-#contact-us {
-    background: url("../images/contact-header.jpg");
-    min-height: 300px;
-}
-
 #physiotherapy {
-    background: url("../images/physio-header.jpg");
+    background: url("../images/a.jpg");
     min-height: 300px;
 }
 
 #pilates {
     background: url("../images/j-pilates.jpg");
+    min-height: 300px;
+}
+
+#facilities {
+    background: url("../images/bone.jpg");
+    min-height: 300px;
+}
+
+#about-us {
+    background: url("../images/physio-header.jpg");
+    min-height: 300px;
+}
+
+#contact-us {
+    background: url("../images/contact-header.jpg");
     min-height: 300px;
 }
 
