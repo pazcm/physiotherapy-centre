@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'K2D', 'Raleway', sans-serif;
+   
 }
 
 h1 {
@@ -68,13 +69,12 @@ h1 {
 /* header */
 
 .header {
- background: url("../images/fondo-1-fisioetc.jpg");
- /*background-color: #21951d  #f5f5f5;*/
- 
  background-attachment: fixed;
- /*background-size: cover;*/
+ background-size: cover;
  background-position: center;
  position: relative;
+ min-height: 350px;
+    
 }
 
 .overlay {
@@ -91,29 +91,29 @@ h1 {
     display: block;
 }
 
+
+#home {
+    background-image: url("../images/header1.jpg");
+}
+
 #physiotherapy {
-    background: url("../images/a.jpg");
-    min-height: 300px;
+    background-image: url("../images/header2.jpg");
 }
 
 #pilates {
-    background: url("../images/j-pilates.jpg");
-    min-height: 300px;
+    background-image: url("../images/header3.jpg");
 }
 
 #facilities {
-    background: url("../images/bone.jpg");
-    min-height: 300px;
+    background-image: url("../images/header4.jpg");
 }
 
 #about-us {
-    background: url("../images/physio-header.jpg");
-    min-height: 300px;
+    background-image: url("../images/header5.jpg");
 }
 
 #contact-us {
-    background: url("../images/contact-header.jpg");
-    min-height: 300px;
+    background-image: url("../images/header6.jpg");
 }
 
 
@@ -161,7 +161,8 @@ h1 {
 .slogan {
     margin-left: 3rem;
     padding-left: 3rem;
-    font-family: fantasy;
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
     transition: transform 2s;
 }
 
