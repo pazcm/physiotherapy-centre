@@ -392,6 +392,11 @@ h1 {
         width: 100%;
         height: 100%;
     }
+    
+    .map iframe {
+        margin-top: 3rem;
+        padding-right: 6rem;
+    }
 }
 
 /* Tablet */
@@ -412,18 +417,18 @@ h1 {
 
 /* bg colors */
 
-#treatments {
-    background-color: #f8f9fa;
-}
+/*#treatments {*/
+/*    background-color: #f8f9fa;*/
+/*}*/
 
-#localization {
-    background-color: #f8f9fa;
-}
+/*#localization {*/
+/*    background-color: #f8f9fa;*/
+/*}*/
 
 
-#contact {
-     background-color: #f8f9fa;
-}
+/*#contact {*/
+/*     background-color: #f8f9fa;*/
+/*}*/
 
 
 
