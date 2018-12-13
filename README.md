@@ -5,7 +5,7 @@
 Responsive and Semantic six pages website created for a fictional physiotherapy clinic, designed following a mobile first approach built in a grid layout with a main navigation.
 * sitemap > https://github.com/pazcm/physiotherapy-centre/blob/master/assets/pre-dev/sitemap.png _(child pages can be added in a future)_
  
-The website showcases the treatments, the professionals and the facilities of the clinic. The aim is to make easier to the user to get info about how to get an appointment and provide them relevant information through a minimalist angle/style  following _UX Design_ principles, prioritising the usability and accessibility of the site.
+The website showcases the treatments, the professionals and the facilities of a physioterapy clinic. The aim is to make easier to the user to get info about how to get an appointment and provide them relevant information through a minimalist angle/style  following _UX Design_ principles, prioritising the usability and accessibility of the site.
 
 #### Assets
 - User stories > https://github.com/pazcm/physiotherapy-centre/blob/master/assets/pre-dev/user-stories.png
