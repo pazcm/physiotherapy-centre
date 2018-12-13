@@ -15,7 +15,7 @@ Assets (for study purpose, no for production or comercial uses)
 
 - **Navigation Bar** - Allows users to navigate through the site.
 - **Pilates Calendar** - Allows users to consult dates/hours for Pilates classes. _(notice: may no content have been added for current month when this project is being reviewed)_
-- **Contact form** - Allows users to send an email to the centre via form.
+- **Contact Form** - Allows users to send an email to the centre via form.
 - **Facilities Gallery** - Allows users to see the facilities provided for the clinic.
 - **Social Links** - Allows users to follow the clinic in the social networks. 
 - **Mailto Link** - Allows users to send a direct email to the clinic by clicking the clinic email address.
