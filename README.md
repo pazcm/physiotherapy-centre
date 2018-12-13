@@ -36,3 +36,5 @@ The website showcases the treatments, the professionals and the facilities of th
 - **Font Awesome icons  v4.7.0**
 - **CSS3**
 
+#### Deployment
+To put my project up on GitHub and hosted there, I created a repository for it to live in with three branches (master, dev and test), I developed the project on dev and test branches and created the PRs necessary to master branch. Finally under my project settings/GitHub Pages I set the Source/master branch https://pazcm.github.io/physiotherapy-centre/
