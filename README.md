@@ -10,7 +10,7 @@ The website showcases the treatments, the professionals and the facilities of th
 #### Assets
 - User stories > https://github.com/pazcm/physiotherapy-centre/blob/master/assets/pre-dev/user-stories.png
 - Mockups > https://github.com/pazcm/physiotherapy-centre/blob/master/assets/pre-dev/centrofisioterapia-wireframes.zip
-- Images > Extracted from the Web (for study purpose, no for production or comercial uses).
+- Images > the pictures for this site were obtained from from the Web (for study purpose, no for production or comercial uses).
 
 #### Features
 
@@ -35,6 +35,20 @@ The website showcases the treatments, the professionals and the facilities of th
 - **Bootstrap CSS v4.1.3**
 - **Font Awesome icons  v4.7.0**
 - **CSS3**
+
+#### Testing
+Manual testing for compatibility issues and responsive designs on Chrome, Firefox and Safari and on different devices using the inspector tool.
+- Functional testing
+- Responsive testing
+- Crossbrowser testing
+###### Test cases:
+  1. **_Contact form_:**
+  - Go to the "contact" page
+  - Try to submit the empty form and verify that an error message about the required fields appears
+  - Try to submit the form with an invalid email address and verify that a relevant error message appears
+  - Try to submit the form with all inputs valid and verify that a success message appears.
+
+
 
 #### Deployment
 To put my project up on GitHub and hosted there, I created a repository for it to live in with three branches (master, dev and test), I developed the project on dev and test branches and created the PRs necessary to master branch. Finally under my project settings/GitHub Pages I set the Source/master branch https://pazcm.github.io/physiotherapy-centre/
