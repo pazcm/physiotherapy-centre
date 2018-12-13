@@ -3,15 +3,16 @@
 ### Overview
 
 Responsive and Semantic six pages website created for a fictional physiotherapy clinic, designed following a mobile first approach built in a grid layout with a main navigation.
- => sitemap link _(child pages can be added in a future)_
+* sitemap > https://github.com/pazcm/physiotherapy-centre/blob/master/assets/pre-dev/sitemap.png _(child pages can be added in a future)_
  
 The website showcases the treatments, the professionals and the facilities of the clinic. The aim is to make easier to the user to get info about how to get an appointment and provide them relevant information through a minimalist angle/style  following _UX Design_ principles, prioritising the usability and accessibility of the site.
 
-User stories 
-Mockups
-Assets (for study purpose, no for production or comercial uses)
+#### Assets
+- User stories > https://github.com/pazcm/physiotherapy-centre/blob/master/assets/pre-dev/user-stories.png
+- Mockups > https://github.com/pazcm/physiotherapy-centre/blob/master/assets/pre-dev/centrofisioterapia-wireframes.zip
+- Images > Extracted from the Web (for study purpose, no for production or comercial uses).
 
-### Features
+#### Features
 
 - **Navigation Bar** - Allows users to navigate through the site.
 - **Pilates Calendar** - Allows users to consult dates/hours for Pilates classes. _(notice: may no content have been added for current month when this project is being reviewed)_
@@ -20,7 +21,18 @@ Assets (for study purpose, no for production or comercial uses)
 - **Social Links** - Allows users to follow the clinic in the social networks. 
 - **Mailto Link** - Allows users to send a direct email to the clinic by clicking the clinic email address.
 
-### Left to implement:
+#### Left to implement
 
 - **Click to call** - On devices with phone capabilities, make it easy for users to directly connect with the clinic by simply tapping the phone number. 
 - **Direct links** to treatments / location / appointment 
+- **Pilates registration** - Form to allow users to register for Pilates classes.
+
+#### Technologies and tools Used
+- IDE Cloud9 / SublimeText
+- Git/GitHub
+- Balsamiq Web APP
+- **HTML5**
+- **Bootstrap CSS v4.1.3**
+- **Font Awesome icons  v4.7.0**
+- **CSS3**
+
