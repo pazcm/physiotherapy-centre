@@ -10,7 +10,7 @@ The website showcases the treatments, the professionals and the facilities of th
 #### Assets
 - User stories > https://github.com/pazcm/physiotherapy-centre/blob/master/assets/pre-dev/user-stories.png
 - Mockups > https://github.com/pazcm/physiotherapy-centre/blob/master/assets/pre-dev/centrofisioterapia-wireframes.zip
-- Images > the pictures for this site were obtained from from the Web (for study purpose, no for production or comercial uses).
+- Images > the pictures for this site were obtained from the Web (for study purpose, no for production or comercial uses).
 
 #### Features
 
