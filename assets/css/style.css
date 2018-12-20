@@ -379,8 +379,9 @@ h1 {
     }
     
     .fisio {
-    padding-left: 4rem;
-    margin-bottom: 1rem;
-}
+    padding-bottom: 1rem;
+    margin: auto;
+    display: block;
+    }
 }
 
