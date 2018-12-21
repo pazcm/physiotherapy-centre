@@ -49,7 +49,8 @@ Each modification was viewed in Chrome browser and tested using developer tools 
 Each page was audited using Chrome Dev Tools Audit functionality.
 
 - HTML was validated using the Markup Validation Service provided by The World Wide Web Consortium: https://validator.w3.org/ 
-- CSS was validated using the CSS Validation Service provided by The World Wide Web Consortium: https://jigsaw.w3.org/css-validator/
+- CSS was validated using the CSS Validation Service provided by The World Wide Web Consortium: https://jigsaw.w3.org/css-validator/ see link => http://jigsaw.w3.org/css-validator/validator$link
+
 
 ###### Test case:
  __Contact form:__
