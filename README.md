@@ -52,9 +52,9 @@ Each modification was checked in Chrome browser and tested using developer tools
 
 |         | Nav Menu | Header Images | Gallery Images | G_Calendar | Contact Form | G_Map | Mailto | Typography | Footer |
 |---------| -------- | ------------- | -------------- | -----------| -------------| ------| -------| ---------- | ------ |
-| Chrome  | Passed   | Passed	       | Passed	        |
-| Firefox | Passed	  | Passed	       | Passed	        |
-| Safari  | Passed	  | Passed	       | Passed	        |
+| Chrome  | Passed   | Passed	       | Passed	        | Passed	    | Passed	      | Passed| Passed	| Passed	    | Passed	|	
+| Firefox | Passed	  | Passed	       | Passed	        | Passed	    | Passed	      | Passed| Passed	| Passed	    | Passed	|
+| Safari  | Passed	  | Passed	       | Passed	        | Passed	    | Passed	      | Passed| Passed	| Passed	    | Passed	|
 
  
 ###### Test case:
