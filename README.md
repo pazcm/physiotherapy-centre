@@ -43,7 +43,7 @@ The aim is to make easier to the user how to get an appointment and provide them
 - **CSS3** used to for giving custom CSS style for the whole site.
 
 #### Testing
-The website was tested continuously during the development. Chrome and Chrome Developer Tools were the main browser and tool used for testing. Moreover, the site was tested using Firefox and Safari browsers.
+All pages of the website were tested continuously during the development. Chrome and Chrome Developer Tools were the main browser and tool used for testing. Moreover, the site was tested using Firefox and Safari browsers.
 
 Each modification was checked in Chrome browser and tested using developer tools at full width resolution and using several devices emulators; Nexus 5X, Nexus 10 Galaxy S5, iPhone 6/7/8, iPhone 6/7/8 Plus, iPhone X, iPad, ...
 
