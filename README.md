@@ -43,14 +43,20 @@ The aim is to make easier to the user how to get an appointment and provide them
 - **CSS3** used to for giving custom CSS style for the whole site.
 
 #### Testing
-All pages of the website were tested continuously during the development. Chrome and Chrome Developer Tools were the main browser and tool used for testing. Moreover, the site was tested using Firefox and Safari browsers.
+Manual testing for compatibility issues and responsive design. All pages of the website were tested continuously during the development. Chrome and Chrome Developer Tools were the main browser and tool used for testing. Moreover, the site was tested using Firefox and Safari browsers.
 
-Each modification was checked in Chrome browser and tested using developer tools at full width resolution and using several devices emulators; Nexus 5X, Nexus 10 Galaxy S5, iPhone 6/7/8, iPhone 6/7/8 Plus, iPhone X, iPad, ...
+Each modification was checked in Chrome browser and tested using developer tools at full width resolution and using several devices emulators (with different screen sizes for Responsive testing); Nexus 5X, Nexus 10 Galaxy S5, iPhone 6/7/8, iPhone 6/7/8 Plus, iPhone X, iPad, ... 
 
 - HTML was validated using the Markup Validation Service provided by The World Wide Web Consortium: https://validator.w3.org/
 - CSS was validated using the CSS Validation Service provided by The World Wide Web Consortium: https://jigsaw.w3.org/css-validator/ 
 
+|         | Nav Menu | Header Images | Gallery Images | G_Calendar | Contact Form | G_Map | Mailto | Typography | Footer |
+|---------| -------- | ------------- | -------------- | -----------| -------------| ------| -------| ---------- | ------ |
+| Chrome  | Passed   | Passed	       | Passed	        |
+| Firefox | Passed	  | Passed	       | Passed	        |
+| Safari  | Passed	  | Passed	       | Passed	        |
 
+ 
 ###### Test case:
 - __Contact form:__
 1. Go to the "contact" page
