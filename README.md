@@ -14,7 +14,7 @@ The aim is to make easier to the user how to get an appointment and provide them
 ##### Assets
 - User stories > https://github.com/pazcm/physiotherapy-centre/blob/master/assets/pre-dev/user-stories.png
 - Mockups > https://github.com/pazcm/physiotherapy-centre/tree/master/assets/pre-dev/wireframes
-- Images > the pictures for this site were obtained from the Web (for study purpose, no for production or comercial uses).
+- Media > the photos used in this site were obtained from the Web (for study purpose, no for production or comercial uses).
 
 #### Features
 
