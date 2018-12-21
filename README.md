@@ -45,15 +45,14 @@ The aim is to make easier to the user how to get an appointment and provide them
 #### Testing
 The website was tested continuously during the development. Chrome and Chrome Developer Tools were the main browser and tool used for testing. Moreover, the site was tested using Firefox and Safari browsers.
 
-Each modification was viewed in Chrome browser and tested using developer tools at full width resolution and using a several device emulators; Galaxy SIII, Galaxy 5, Laptop touch screen, iPhone 5/SE, iPhone 6/7/8, iPhone 6/7/8 Plus, iPhone X, iPad.
-Each page was audited using Chrome Dev Tools Audit functionality.
+Each modification was checked in Chrome browser and tested using developer tools at full width resolution and using several devices emulators; Nexus 5X, Nexus 10 Galaxy S5, iPhone 6/7/8, iPhone 6/7/8 Plus, iPhone X, iPad, ...
 
-- HTML was validated using the Markup Validation Service provided by The World Wide Web Consortium: https://validator.w3.org/ 
-- CSS was validated using the CSS Validation Service provided by The World Wide Web Consortium: https://jigsaw.w3.org/css-validator/ see link => http://jigsaw.w3.org/css-validator/validator$link
+- HTML was validated using the Markup Validation Service provided by The World Wide Web Consortium: https://validator.w3.org/
+- CSS was validated using the CSS Validation Service provided by The World Wide Web Consortium: https://jigsaw.w3.org/css-validator/ 
 
 
 ###### Test case:
- __Contact form:__
+- __Contact form:__
 1. Go to the "contact" page
 2. Try to submit the empty form and verify that an error message about the required fields appears
 3. Try to submit the form with an invalid email address and verify that a relevant error message appears
