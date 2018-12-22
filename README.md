@@ -45,10 +45,12 @@ The aim is to make easier to the user how to get an appointment and provide them
 #### Testing
 Manual testing for compatibility issues and responsive design. All pages of the website were tested continuously during the development. Chrome and Chrome Developer Tools were the main browser and tool used for testing. Moreover, the site was tested using Firefox and Safari browsers.
 
-Each modification was checked in Chrome browser and tested using developer tools at full width resolution and using several devices emulators (with different screen sizes for Responsive testing); Nexus 5X, Nexus 10 Galaxy S5, iPhone 6/7/8, iPhone 6/7/8 Plus, iPhone X, iPad, ... 
+Each modification was checked in Chrome, Firefox and Safari browsers and tested using developer tools at full width resolution and using several devices emulators with different screen sizes for Responsive testing; such as Nexus 5X, Nexus 10 Galaxy S5, iPhone 6/7/8, iPhone 6/7/8 Plus, iPhone X, iPad, iPad Pro and Laptop with touch. 
 
 - HTML was validated using the Markup Validation Service provided by The World Wide Web Consortium: https://validator.w3.org/
 - CSS was validated using the CSS Validation Service provided by The World Wide Web Consortium: https://jigsaw.w3.org/css-validator/ 
+
+|_Crossbrower and Responsive test_
 
 |         | Nav Menu | Header Images | Gallery Images | G_Calendar | Contact Form | G_Map | Mailto | Typography | Footer |
 |---------| -------- | ------------- | -------------- | -----------| -------------| ------| -------| ---------- | ------ |
