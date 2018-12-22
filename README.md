@@ -68,4 +68,4 @@ Each modification was checked in Chrome, Firefox and Safari browsers and tested 
 
 
 #### Deployment
-To put my project up on GitHub and hosted there, I created a repository for it to live in with three branches (master, dev and test), I developed the project on dev and test branches and created the PRs necessary to master branch. Finally under my project settings/GitHub Pages I set the Source/master branch https://pazcm.github.io/physiotherapy-centre/
+To put my project up on GitHub and hosted there, I created a repository for it to live in and three branches (master, dev and test), the project was developed on dev and test branches and the necessary PRs to master branch were created. Finally under my project settings/GitHub Pages it was set the Source/master branch https://pazcm.github.io/physiotherapy-centre/
