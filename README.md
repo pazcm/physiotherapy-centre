@@ -53,7 +53,7 @@ Each functionality and all modifications were checked in Chrome, Firefox and Saf
 - Making Google calendar responsive (by using bootstrap grid sytem and classes solved the issue).
 
 
-_Crossbrower and Responsive test_
+###### Crossbrower and Responsive test
 * * *
 
 |         | Nav Menu | Header Images | Gallery Images | G_Calendar | Contact Form | G_Map | Mailto | Typography | Footer |
@@ -61,8 +61,8 @@ _Crossbrower and Responsive test_
 | Chrome  | Passed   | Passed	       | Passed	        | Passed	    | Passed	      | Passed| Passed	| Passed	    | Passed	|	
 | Firefox | Passed	  | Passed	       | Passed	        | Passed	    | Passed	      | Passed| Passed	| Passed	    | Passed	|
 | Safari  | Passed	  | Passed	       | Passed	        | Passed	    | Passed	      | Passed| Passed	| Passed	    | Passed	|
+* * *
 
- 
 ###### Test case:
 - __Contact form:__
 1. Go to the "contact" page
