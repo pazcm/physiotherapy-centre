@@ -32,10 +32,10 @@ The aim is to make easier to the user how to get an appointment and provide them
 - **Pilates registration** - Form to allow users to register for Pilates classes.
 
 #### Technologies and tools Used
-- IDE Cloud9 (online integrated development environment) used for development with GitHub integration.
-- SublimeText (proprietary cross-platform source code editor) used for development.
-- Git/GitHub (web-based hosting service for __Version Control__ using Git) used to manage the code, track the changes of the files and host this project.
-- Balsamiq Web APP (graphical user interface mockup and website wireframe builder application) used to create the wireframes of the website.
+- **IDE Cloud9** (online integrated development environment) used for development with GitHub integration.
+- **SublimeText** (proprietary cross-platform source code editor) used for development.
+- **Git/GitHub** (web-based hosting service for __Version Control__ using Git) used to manage the code, track the changes of the files and host this project.
+- **Balsamiq Web APP** (graphical user interface mockup and website wireframe builder application) used to create the wireframes for the website.
 - **HTML5** used to structure and present the content in a consistent and semantic way following the W3C standards.
 - **Bootstrap CSS v4.1.3** free and open-source front-end framework used for developing this website taking laverage of the components that contains.
 - **Font Awesome icons  v4.7.0** used for getting social icons along the site.
@@ -45,17 +45,16 @@ The aim is to make easier to the user how to get an appointment and provide them
 #### Testing
 Manual testing for compatibility issues and responsive design. All pages of the website were tested continuously during the development. Chrome and Chrome Developer Tools were the main browser and tool used for testing. Moreover, the site was tested using Firefox and Safari browsers.
 
-Each modification was checked in Chrome, Firefox and Safari browsers and tested using developer tools at full width resolution and using several devices emulators with different screen sizes for Responsive testing; such as Nexus 5X, Nexus 10, Galaxy S5, iPhone 6/7/8, iPhone 6/7/8 Plus, iPhone X, iPad and iPad Pro. 
+Each functionality and all modifications were checked in Chrome, Firefox and Safari browsers and tested using developer tools at full width resolution and using several devices emulators with different screen sizes for Responsive testing; such as Nexus 5X, Nexus 10, Galaxy S5, iPhone 6/7/8, iPhone 6/7/8 Plus, iPhone X, iPad and iPad Pro. 
+
 
 ##### Issues
-- Trying to center Hamburguer Menu different devices (by applying custom CSS and media queries). 
+- Trying to center the Hamburguer Menu for different screen sizes devices (by applying custom CSS and media queries). 
 - Making Google calendar responsive (by using bootstrap grid sytem and classes solved the issue).
 
 
-- HTML was validated using the Markup Validation Service provided by The World Wide Web Consortium: https://validator.w3.org/
-- CSS was validated using the CSS Validation Service provided by The World Wide Web Consortium: https://jigsaw.w3.org/css-validator/ 
-
-|_Crossbrower and Responsive test_
+_Crossbrower and Responsive test_
+* * *
 
 |         | Nav Menu | Header Images | Gallery Images | G_Calendar | Contact Form | G_Map | Mailto | Typography | Footer |
 |---------| -------- | ------------- | -------------- | -----------| -------------| ------| -------| ---------- | ------ |
@@ -72,9 +71,17 @@ Each modification was checked in Chrome, Firefox and Safari browsers and tested 
 4. Try to submit the form with all inputs valid and verify that a thank you message appears.
 
 
+- HTML was validated using the Markup Validation Service provided by The World Wide Web Consortium: https://validator.w3.org/
+- CSS was validated using the CSS Validation Service provided by The World Wide Web Consortium: https://jigsaw.w3.org/css-validator/ 
+
+
 #### Deployment
 To put my project up on GitHub and hosted there, I created a repository for it to live in and three branches ('master', 'dev' and 'test').
+
+
 The project was developed on 'dev' and 'test' branches and the necessary PRs to 'master' branch were created.
+
+
 Finally under my project settings/GitHub Pages, it was set the Source/master branch and published =>
 https://pazcm.github.io/physiotherapy-centre/
 
