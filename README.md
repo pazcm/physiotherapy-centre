@@ -88,7 +88,7 @@ https://pazcm.github.io/physiotherapy-centre/
 #### Credits
 
 ###### Issues
-The following sites were used as resources to get css snippets, debug css and get utilities.
+The following sites were used as resources to research about issues, get css snippets, debug css and get utilities.
 
 - http://stackoverflow.com/ 
 - http://animista.net/play/text
