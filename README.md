@@ -47,11 +47,11 @@ Manual testing for compatibility issues and responsive design. All pages of the 
 
 Each functionality and all modifications were checked in Chrome, Firefox and Safari browsers and tested using developer tools at full width resolution and using several devices emulators with different screen sizes for Responsive testing; such as Nexus 5X, Nexus 10, Galaxy S5, iPhone 6/7/8, iPhone 6/7/8 Plus, iPhone X, iPad and iPad Pro. 
 
-* * *
+
 - HTML was validated using the Markup Validation Service provided by The World Wide Web Consortium: https://validator.w3.org/
 - CSS was validated using the CSS Validation Service provided by The World Wide Web Consortium: https://jigsaw.w3.org/css-validator/ 
 
-
+* * *
 ##### Issues
 - Trying to center the Hamburguer Menu for different screen sizes devices (by applying custom CSS and media queries). 
 - Making Google calendar responsive (by using bootstrap grid sytem and classes solved the issue).
@@ -73,8 +73,6 @@ Each functionality and all modifications were checked in Chrome, Firefox and Saf
 2. Try to submit the empty form and verify that an error message about the required fields appears
 3. Try to submit the form with an invalid email address and verify that a relevant error message appears
 4. Try to submit the form with all inputs valid and verify that a thank you message appears.
-* * *
-
 
 
 
