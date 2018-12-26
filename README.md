@@ -51,7 +51,7 @@ Each functionality and all modifications were checked in Chrome, Firefox and Saf
 - HTML was validated using the Markup Validation Service provided by The World Wide Web Consortium: https://validator.w3.org/
 - CSS was validated using the CSS Validation Service provided by The World Wide Web Consortium: https://jigsaw.w3.org/css-validator/ 
 
-* * *
+
 ##### Issues
 - Trying to center the Hamburguer Menu for different screen sizes devices (by applying custom CSS and media queries). 
 - Making Google calendar responsive (by using bootstrap grid sytem and classes solved the issue).
